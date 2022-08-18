@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px 0px 165px;
+    margin-bottom: 55px;
+
+}
+
+.cabecalho_links {
+    display: flex;
+    list-style-type: none;
+    margin-right: 80px;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #33323D;
+}
+
+.link_home,
+.link_portfolio {
+    margin-right: 43px;
+}
+
+.primeira_fase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 18px 57px 0px 165px;
+    background: #F2F2F2 url("../../assets/home/image-homepage-hero.jpg") top left / 1100px no-repeat;
+}
+
+.titulo_01 {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 357px;
+    background-color: #FAFAFA;
+    margin: 240px 773px 0px 0px;
+
+
+}
+
+.titulo_01 h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #33323D;
+
+    padding: 36px 28px 70px 27px;
+}
+
+button {
+    all: unset;
+
+    width: 200px;
+    height: 48px;
+    background: #203A4C url(../../assets/icons/down-arrows.svg) 15px 15px / 20px no-repeat;
+
+    text-align: center;
+}
